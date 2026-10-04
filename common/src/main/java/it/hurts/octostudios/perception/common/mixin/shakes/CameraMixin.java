@@ -35,7 +35,8 @@ public abstract class CameraMixin {
             shakeOffset.add(effect.getShakeOffset(player, partialTicks));
         }
 
-        var camera = MC.gameRenderer.getMainCamera();
+        //var camera = MC.gameRenderer.getMainCamera();
+		Camera camera = (Camera) (Object) this;
 
         var inverseRotation = new Quaternionf(camera.rotation()).conjugate();
 
