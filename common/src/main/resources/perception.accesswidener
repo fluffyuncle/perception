@@ -1,4 +1,4 @@
-accessWidener   v2  named
+accessWidener   v2  official
 
 accessible method net/minecraft/client/Camera move (FFF)V
 accessible field net/minecraft/server/level/ChunkMap updatingChunkMap Lit/unimi/dsi/fastutil/longs/Long2ObjectLinkedOpenHashMap;
